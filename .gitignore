@@ -1,0 +1,124 @@
+# =========================
+# Python / caches
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# Virtual envs
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.conda_env/
+pip-wheel-metadata/
+*.egg-info/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+.profile_default/
+ipython_config.py
+
+# If you use JupyterLab
+.jupyter/lab/workspaces/
+.jupyter/lab/user-settings/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Builds / packaging
+# =========================
+build/
+dist/
+*.whl
+*.egg
+*.log
+
+# =========================
+# Data & outputs (typical for notebooks)
+# (оставляй в репе только маленькие примеры)
+# =========================
+data/
+datasets/
+dataset/
+raw/
+processed/
+interim/
+outputs/
+output/
+results/
+reports/
+figures/
+plots/
+images_generated/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+# =========================
+# Secrets / local configs
+# =========================
+.env
+.env.*
+*.secret
+secrets/
+config.local.*
+credentials.*
+*.pem
+*.key
+
+# =========================
+# LaTeX (если делаешь отчёты)
+# =========================
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.log
