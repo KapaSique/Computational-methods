@@ -122,3 +122,9 @@ credentials.*
 *.fdb_latexmk
 *.fls
 *.log
+
+# =========================
+# Lecture materials (large files)
+# =========================
+Васе вычметоды/
+ЗадачиВычмет/
