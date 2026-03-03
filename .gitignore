@@ -127,4 +127,5 @@ credentials.*
 # Lecture materials (large files)
 # =========================
 Васе вычметоды/
-ЗадачиВычмет/
+ЗадачиВычмет/.tasks_converted/
+*_executed.ipynb
