@@ -1,0 +1,27 @@
+name: Run notebooks
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Execute notebooks
+        run: |
+          for nb in task_*.ipynb; do
+            echo "=== $nb ==="
+            jupyter nbconvert --to notebook --execute --inplace "$nb" 2>&1
+          done

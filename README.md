@@ -6,6 +6,8 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![CI](https://img.shields.io/github/actions/workflow/status/KapaSique/Computational-methods/run-notebooks.yml?branch=master&style=for-the-badge&label=notebooks)
 
 **Лабораторные работы по курсу «Вычислительные методы»**
 
@@ -270,14 +272,23 @@ $$\int_a^b f(x)dx \approx \frac{h}{3}\left[f(x_0) + 4\sum_{i=1,3,5}f(x_i) + 2\su
 
 ```bash
 # клонировать репозиторий
-git clone <url>
+git clone https://github.com/KapaSique/Computational-methods.git
 cd Computational-methods
+
+# установить зависимости
+pip install -r requirements.txt
 
 # запустить Jupyter
 jupyter notebook
 ```
 
 Открыть нужный `.ipynb` → **Cell → Run All** ▶️
+
+---
+
+## 📄 Лицензия
+
+MIT — свободное использование, модификация и распространение.
 
 ---
 
