@@ -124,8 +124,14 @@ credentials.*
 *.log
 
 # =========================
+# Claude Code assistant
+# =========================
+.claude/
+
+# =========================
 # Lecture materials (large files)
 # =========================
 Васе вычметоды/
-ЗадачиВычмет/.tasks_converted/
+ЗадачиВычмет/
+.tasks_converted/
 *_executed.ipynb
