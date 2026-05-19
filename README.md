@@ -6,7 +6,6 @@
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![CI](https://img.shields.io/github/actions/workflow/status/KapaSique/Computational-methods/run-notebooks.yml?branch=master&style=for-the-badge&label=notebooks)
 
 **Лабораторные работы по курсу «Вычислительные методы»**
 
